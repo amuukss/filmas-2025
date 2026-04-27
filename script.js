@@ -19,7 +19,7 @@ const movies = [
         rating: "7,8/10",
         genre: "Animācija, Piedzīvojumu, Fantāzija",
         cast: "Voice Cast",
-        image: "https://theartsshelf.com/wp-content/uploads/2025/04/Flow-%C2%A9-Dream-Well-Studio.jpg"
+        image: "https://images.squarespace-cdn.com/content/v1/57a001ec9de4bbbd26bfd9ac/a7aecea9-4779-4032-901c-6cf2493aa9bb/FLOW_WEB.png?format=1000w"
     },
     {
         title: "Challengers",

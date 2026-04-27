@@ -8,7 +8,6 @@ const movies = [
         rating: "7,7/10",
         genre: "Trilleris, Šausmas",
         cast: "Michael B. Jordan, Hailee Steinfeld, Miles Caton, Jack O'Connell",
-        video: "https://youtu.be/bKGxHflevuk?si=Z0ontoXgzUM9_au8",
         image: "https://www.tvguide.com/a/img/catalog/provider/2/13/2-47d8b9e24067991374a616f734261ae4.jpg"
     },
     {
@@ -20,8 +19,7 @@ const movies = [
         rating: "7,8/10",
         genre: "Animācija, Piedzīvojumu, Fantāzija",
         cast: "Voice Cast",
-        video: "https://rr6---sn-jvhixh-5gor.googlevideo.com/videoplayback?expire=1776462471&ei=J1biaeyhDKuMr9gP5bHjwQM&ip=145.223.56.188&id=o-AC62h5OgeBCrg7ITdimvoRAhrUwmGv-m36eg2_qzFWEp&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AUUZDGLFTRUnZF6pC1k2E90kw3qGCRvjH90e_8XtTZfX8MwMujpNVcF5KFHodBfgdqTc6P5MwvsTm3cH&spc=jlWavRkur62XQwV0ps0RWR-IKQLRop1lNCAwQicacqBpXp0-9iGNH44fQ03PHTL7pP4&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=10352160&ratebypass=yes&dur=135.581&lmt=1732969489765664&fexp=51565116,51565682&c=ANDROID&txp=4538434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIhAL3VL25lZdJ74_-B5mSvUK7udzknn8Qys4mq1jW5XbnlAiAZcS1Aq85foU_ejUFdNTNWANkz5nbDAAPR7aLsXAQmEA%3D%3D&rm=sn-p5qeer7e&rrc=104,191&req_id=3e769e10ab8da3ee&cps=0&ipbypass=yes&redirect_counter=2&cm2rm=sn-uxaxufv-gpmz7l&cms_redirect=yes&cmsv=e&met=1776440873,&mh=3q&mip=5.241.141.116&mm=29&mn=sn-jvhixh-5gor&ms=rdu&mt=1776440489&mv=m&mvi=6&pl=15&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAO3918pdM9qs5z_Zu3-v7oJB4sp6Fqj4-4Wu5pUvLZncAiBsAu375F0yZpwrnROn4Flcm8StnByrbs29BZrWlSKW5A%3D%3D",
-        image: "https://static.wikia.nocookie.net/flow-movie/images/3/39/Site-community-image/revision/latest/scale-to-width-down/1200?cb=20250121023822"
+        image: "https://theartsshelf.com/wp-content/uploads/2025/04/Flow-%C2%A9-Dream-Well-Studio.jpg"
     },
     {
         title: "Challengers",
@@ -137,3 +135,4 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
+

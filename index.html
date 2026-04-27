@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Rated movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">2025 Skatītākās Filmas</div>
+        <nav class="nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Movies</a>
+            <a href="#" class="nav-link">TV Shows</a>
+            <a href="#" class="nav-link">Trending</a>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="banner">
+        <img id="bg-video" class="bg-video" src="https://www.tvguide.com/a/img/catalog/provider/2/13/2-47d8b9e24067991374a616f734261ae4.jpg" alt="Featured Movie">
+        
+        <div class="overlay"></div>
+        
+        <div class="banner-content">
+            <div class="content-text">
+                <h1 id="title" class="movie-title">Sinners</h1>
+                <p id="desc" class="movie-desc">
+                    Mēģinot atstāt savu nemierīgo dzīvi, dvīņu brāļi atgriežas dzimtajā pilsētā, lai sāktu no jauna, tikai atklājot, ka vēl lielāks ļaunums gaida, lai viņus sagaidītu atpakaļ.
+                </p>
+                <div class="button-group">
+                    <button class="btn btn-play" id="play">
+                        <span>▶</span> Play
+                    </button>
+                    <button class="btn btn-info">
+                        <span>ℹ</span> More Info
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Slider -->
+    <section class="featured-section">
+        <h2 class="section-title">Filmu izvēle</h2>
+        <div class="movies-slider">
+            <div class="slider-item" onclick="selectMovie(0)">
+                <img src="https://cinephilecorner.com/wp-content/uploads/2025/04/sinners-2025.webp" alt="Sinners" class="slider-img">
+                <div class="slider-info">
+                    <h3>Sinners</h3>
+                </div>
+            </div>
+            <div class="slider-item" onclick="selectMovie(1)">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.Hlzvpz7ilJ9hcKWnda4NQAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Flow" class="slider-img">
+                <div class="slider-info">
+                    <h3>Flow</h3>
+                </div>
+            </div>
+            <div class="slider-item" onclick="selectMovie(2)">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.Evy7kB0ja9ySlfFilNHaQAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Challengers" class="slider-img">
+                <div class="slider-info">
+                    <h3>Challengers</h3>
+                </div>
+            </div>
+            <div class="slider-item" onclick="selectMovie(3)">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.eYHKO24Pzkt1EHvvpMZcvwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="The Substance" class="slider-img">
+                <div class="slider-info">
+                    <h3>The Substance</h3>
+                </div>
+            </div>
+            <div class="slider-item" onclick="selectMovie(4)">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.BgDi410LPmt-Bv2K2P2WSgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Wicked" class="slider-img">
+                <div class="slider-info">
+                    <h3>Wicked</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Modal -->
+    <div id="infoModal" class="info-modal">
+        <div class="info-modal-content">
+            <span class="info-close">&times;</span>
+            <div class="info-modal-body">
+                <div class="info-modal-poster">
+                    <img id="infoPoster" src="" alt="Movie Poster">
+                </div>
+                <div class="info-modal-details">
+                    <h1 id="infoTitle" class="info-title"></h1>
+                    <p id="infoDesc" class="info-description"></p>
+                    <div class="info-details-grid">
+                        <div class="info-detail">
+                            <label>Director</label>
+                            <p id="infoDirector"></p>
+                        </div>
+                        <div class="info-detail">
+                            <label>Writer</label>
+                            <p id="infoWriter"></p>
+                        </div>
+                        <div class="info-detail">
+                            <label>Rating</label>
+                            <p id="infoRating" class="info-rating"></p>
+                        </div>
+                        <div class="info-detail">
+                            <label>Genre</label>
+                            <p id="infoGenre"></p>
+                        </div>
+                        <div class="info-detail info-detail-full">
+                            <label>Cast</label>
+                            <p id="infoCast"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Player Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-close">&times;</span>
+            <video id="videoPlayer" controls>
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -54,7 +54,7 @@ const movies = [
         rating: "7,3/10",
         genre: "Muzikāla, Fantāzija, Drāma",
         cast: "Cynthia Erivo, Ariana Grande, Jeff Goldblum",
-        <iframe id="<iframe width="560" height="315" src="https://www.youtube.com/embed/6COmYeLsz4c?si=GCUL--NeCKHzRh6H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>",</iframe>
+       <p><a href="https://www.youtube.com/watch?v=6COmYeLsz4c"> </a></p>
         image: "https://www.nme.com/wp-content/uploads/2024/11/Wicked-film-2024-1.jpg"
     }
 ];
